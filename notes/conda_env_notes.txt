@@ -1,0 +1,7 @@
+conda activate ai_whisperers_env
+
+conda env export > environment.yml  
+
+conda env create --name new_env -f environment.yml
+
+conda env update --name new_env -f environment.yml

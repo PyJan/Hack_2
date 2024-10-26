@@ -14,7 +14,8 @@ def main():
 
     match args.runtype:
         case 'build':
-            print('in build')
+            subprocess.run("conda env update --name ai_whisperers_env --file environment.yml --prune", shell=True)
+            print('Environment updated')
         case 'streamlit':
             print('streamlit')
         case 'test_backend':

@@ -2,6 +2,7 @@ from openai import AzureOpenAI
 import keyring, os
 from create_sample_apis import return_db_samples
 
+
 def call_azure(data, source):
     # gets the API Key from environment variable AZURE_OPENAI_API_KEY
     client = AzureOpenAI(

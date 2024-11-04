@@ -10,7 +10,9 @@ import keyring
 
 setup = {
     'jans-third-source':  ('https://jans-third-source.openai.azure.com', '2024-02-15-preview'),  # Azure endpoint, API version
-    'my-east-us-for-jan': ("https://my-east-us-for-jan.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview", 'xxx')  # emdpoint, place holder
+    'my-east-us-for-jan': ("https://my-east-us-for-jan.openai.azure.com/openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview", 'xxx'),  # endpoint, place holder
+    'storage-connection-string': ("storage-connection-string", 'xxx'),  # storage connection string
+    'search-api-key': ("search-api-key", 'xxx'),  # search api key
 }
 
 def main():

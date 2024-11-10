@@ -17,7 +17,7 @@ def main():
             subprocess.run("conda env update --name ai_whisperers_env --file environment.yml --prune", shell=True)
             print('Environment updated')
         case 'streamlit':
-            print('streamlit')
+            subprocess.run(r"streamlit run  C:\Users\jansv\IdeaProjects\Hack_2\hackathon_day\project_structure\front_end\run_ui.py", shell=True)
         case 'test_backend':
             print('in test backend')
         case 'test_usecases':

@@ -1,0 +1,2 @@
+"-m streamlit run" to run streamlit app in intelij
+
